@@ -15,3 +15,8 @@ fi
 cp "$source_file" "$destination_folder/"
 
 echo "commit-msg 文件已成功拷贝到 .git/hooks 文件夹。"
+echo "配置成功！按任意键继续或 Ctrl+C 退出。"
+read -n 1 -s
+
+# 不要退出终端
+# exit 0
