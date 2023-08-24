@@ -1,1 +1,14 @@
 123111115555  11111 11111 1111111 111111 11111
+format:
+    image:
+        registry.hh-d.brainpp.cn/megvii-transformer/avp:deva-format
+    stage:
+        format
+    script:
+        - current_time_1=$(date +$s)
+        - echo $current_time_1 
+        - ./scripts/check-format.sh
+        - current_time_2=$(date +$s)
+        - echo $current_time_2
+        - duration_format_time = $((current_time_2 - current_time_1))
+        - echo $duration_format_time
