@@ -1,0 +1,2 @@
+
+88648363613bb4fb9d0ad27cbe446d1a46b52837	{"key":"make-fetch-happen:request-cache:http://registry.npm.taobao.org/underscore","integrity":null,"time":1692676028345,"size":"262","metadata":{"time":1692676028344,"url":"http://registry.npm.taobao.org/underscore","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Tue, 22 Aug 2023 03:47:08 GMT","location":"https://registry.npmmirror.com/underscore"},"options":{"compress":true},"status":301}}

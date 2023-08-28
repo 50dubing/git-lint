@@ -1,0 +1,2 @@
+
+3aacfe32f4009516ba2e84d4a41c66e7ded5cbe7	{"key":"make-fetch-happen:request-cache:http://registry.npm.taobao.org/color-convert","integrity":null,"time":1692676028136,"size":"262","metadata":{"time":1692676028136,"url":"http://registry.npm.taobao.org/color-convert","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Tue, 22 Aug 2023 03:47:08 GMT","location":"https://registry.npmmirror.com/color-convert"},"options":{"compress":true},"status":301}}

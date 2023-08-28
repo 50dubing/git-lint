@@ -1,0 +1,2 @@
+
+7bdb5782cdfe771c60d8b1ab36b0605d5167e186	{"key":"make-fetch-happen:request-cache:http://registry.npm.taobao.org/ansi-styles","integrity":null,"time":1692676027923,"size":"262","metadata":{"time":1692676027922,"url":"http://registry.npm.taobao.org/ansi-styles","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Tue, 22 Aug 2023 03:47:07 GMT","location":"https://registry.npmmirror.com/ansi-styles"},"options":{"compress":true},"status":301}}

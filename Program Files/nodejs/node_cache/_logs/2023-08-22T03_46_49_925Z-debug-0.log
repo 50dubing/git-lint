@@ -1,0 +1,109 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@9.6.7
+2 info using node@v18.17.1
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 5ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\dpanZbh\git-lint-end\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:C:\Users\zhangbinghui\.npmrc Completed in 2ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:C:\dpanZbh\git-lint-end\Program Files\nodejs\node_global\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 17ms
+17 timing npm:load:configload Completed in 17ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm uninstall git-commit-msg-linter
+21 verbose argv "uninstall" "git-commit-msg-linter"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 4ms
+24 timing npm:load:display Completed in 5ms
+25 verbose logfile logs-max:10 dir:C:\dpanZbh\git-lint-end\Program Files\nodejs\node_cache\_logs\2023-08-22T03_46_49_925Z-
+26 verbose logfile C:\dpanZbh\git-lint-end\Program Files\nodejs\node_cache\_logs\2023-08-22T03_46_49_925Z-debug-0.log
+27 timing npm:load:logFile Completed in 14ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 42ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 33ms
+34 timing idealTree:userRequests Completed in 1ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 timing idealTree:buildDeps Completed in 1ms
+38 timing idealTree:fixDepFlags Completed in 2ms
+39 timing idealTree Completed in 37ms
+40 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+41 timing reify:loadTrees Completed in 73ms
+42 timing reify:diffTrees Completed in 2ms
+43 silly reify mark retired [ 'C:\\dpanZbh\\git-lint-end\\node_modules\\chalk' ]
+44 silly reify mark retired [ 'C:\\dpanZbh\\git-lint-end\\node_modules\\color-convert' ]
+45 silly reify mark retired [ 'C:\\dpanZbh\\git-lint-end\\node_modules\\ansi-styles' ]
+46 silly reify mark retired [ 'C:\\dpanZbh\\git-lint-end\\node_modules\\color-name' ]
+47 silly reify mark retired [ 'C:\\dpanZbh\\git-lint-end\\node_modules\\commit-msg-linter' ]
+48 silly reify mark retired [ 'C:\\dpanZbh\\git-lint-end\\node_modules\\escape-string-regexp' ]
+49 silly reify mark retired [ 'C:\\dpanZbh\\git-lint-end\\node_modules\\did-you-mean' ]
+50 silly reify mark retired [ 'C:\\dpanZbh\\git-lint-end\\node_modules\\has-flag' ]
+51 silly reify mark retired [
+51 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\git-commit-msg-linter',
+51 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\.bin\\commit-msg-linter',
+51 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\.bin\\commit-msg-linter.cmd',
+51 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\.bin\\commit-msg-linter.ps1'
+51 silly reify ]
+52 silly reify mark retired [ 'C:\\dpanZbh\\git-lint-end\\node_modules\\levenshtein' ]
+53 silly reify mark retired [ 'C:\\dpanZbh\\git-lint-end\\node_modules\\supports-color' ]
+54 silly reify mark retired [ 'C:\\dpanZbh\\git-lint-end\\node_modules\\underscore' ]
+55 silly reify moves {
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\chalk': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.chalk-03S0nicg',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\color-convert': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.color-convert-QAIyx34c',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\ansi-styles': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.ansi-styles-Zketyxgp',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\color-name': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.color-name-P8tYUDZf',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\commit-msg-linter': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.commit-msg-linter-VL5LnSGP',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\escape-string-regexp': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.escape-string-regexp-S8YFLd47',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\did-you-mean': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.did-you-mean-QoRY14Bq',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\has-flag': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.has-flag-774BZJRG',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\git-commit-msg-linter': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.git-commit-msg-linter-uqBmisks',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\.bin\\commit-msg-linter': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.bin\\.commit-msg-linter-S29CD6BR',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\.bin\\commit-msg-linter.cmd': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.bin\\.commit-msg-linter.cmd-eCttEipr',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\.bin\\commit-msg-linter.ps1': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.bin\\.commit-msg-linter.ps1-IPAVIYzW',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\levenshtein': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.levenshtein-tGGuv5JO',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\supports-color': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.supports-color-yMQPIVmo',
+55 silly reify   'C:\\dpanZbh\\git-lint-end\\node_modules\\underscore': 'C:\\dpanZbh\\git-lint-end\\node_modules\\.underscore-yzQKJbFm'
+55 silly reify }
+56 timing reify:retireShallow Completed in 65ms
+57 timing reify:createSparse Completed in 0ms
+58 timing reify:loadBundles Completed in 0ms
+59 silly audit report null
+60 timing reify:audit Completed in 0ms
+61 timing reify:unpack Completed in 1ms
+62 timing reify:unretire Completed in 0ms
+63 timing build:queue Completed in 0ms
+64 timing build:deps Completed in 1ms
+65 timing build Completed in 1ms
+66 timing reify:build Completed in 1ms
+67 timing reify:trash Completed in 126ms
+68 timing reify:save Completed in 8ms
+69 timing reify Completed in 307ms
+70 silly REMOVE node_modules/underscore
+71 silly REMOVE node_modules/supports-color
+72 silly REMOVE node_modules/levenshtein
+73 silly REMOVE node_modules/git-commit-msg-linter
+74 silly REMOVE node_modules/has-flag
+75 silly REMOVE node_modules/did-you-mean
+76 silly REMOVE node_modules/escape-string-regexp
+77 silly REMOVE node_modules/commit-msg-linter
+78 silly REMOVE node_modules/commit-msg-linter/node_modules/supports-color
+79 silly REMOVE node_modules/commit-msg-linter/node_modules/has-flag
+80 silly REMOVE node_modules/color-name
+81 silly REMOVE node_modules/ansi-styles
+82 silly REMOVE node_modules/color-convert
+83 silly REMOVE node_modules/chalk
+84 timing command:uninstall Completed in 315ms
+85 verbose exit 0
+86 timing npm Completed in 1011ms
+87 info ok
